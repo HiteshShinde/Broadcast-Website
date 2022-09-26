@@ -11,6 +11,12 @@
     font-weight: 200;
 }
 
+.heading {
+    color: #fff;
+    font-size: 40px;
+    padding: 96px 0 32px 0;
+}
+
 /* Navbar */
 #navbar {
     position: sticky;
@@ -25,14 +31,18 @@
     z-index: 1;
 }
 
-#navbar .menu a {
+#navbar .menu-logo a {
     color: #fff;
     text-decoration: none;
 }
 
-#navbar .menu a:hover {
+#navbar .menu-logo a:hover {
     color: rgb(204, 0, 170);
     scale: 105%;
+}
+
+#navbar .menu-wrap {
+    display: none;
 }
 
 /* Section-1 */
@@ -83,12 +93,6 @@
 #section-2 {
     background-color: rgb(32, 55, 68);
     text-align: center;
-}
-
-#section-2 .heading {
-    color: #fff;
-    font-size: 40px;
-    padding: 96px 0 32px 0;
 }
 
 #section-2 > p {
@@ -182,9 +186,7 @@
 }
 
 #section-3 .heading {
-    font-size: 40px;
-    color: #fff;
-    padding: 64px 0 32px 16px;
+    padding-left: 10px;
 }
 
 #section-3 p {
@@ -253,12 +255,6 @@
 #section-4 {
     background-color: rgb(25, 34, 32);
     text-align: center;
-}
-
-#section-4 .heading {
-    font-size: 40px;
-    color: #fff;
-    padding: 96px 0 32px 0;
 }
 
 #section-4 > p {
